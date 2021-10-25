@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<GridPane alignment="center" hgap="10" prefHeight="400.0" prefWidth="600.0" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="sample.Controller">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Learning Java With Java" textAlignment="CENTER" GridPane.rowIndex="1">
+         <font>
+            <Font size="53.0" />
+         </font>
+         <GridPane.margin>
+            <Insets top="-350.0" />
+         </GridPane.margin>
+      </Text>
+   </children>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
