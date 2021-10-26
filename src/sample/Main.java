@@ -5,6 +5,10 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.scene.paint.Color;
+
+
+
 
 public class Main extends Application {
 
@@ -12,7 +16,10 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("UserInterface.fxml"));
         primaryStage.setTitle("Learning Java With Java");
-        primaryStage.setScene(new Scene(root, 600, 400));
+        Scene scene = new Scene(root, 600, 400,Color.rgb(205,135,101));
+        primaryStage.setScene(scene);
+
+
         primaryStage.show();
     }
 
